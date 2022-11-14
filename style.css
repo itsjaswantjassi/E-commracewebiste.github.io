@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(100, 21, 21);
+    font-family: 'Satisfy', cursive;
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 4, 4);
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 20);
+
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(239 221 209);
+    margin-right: -35px;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(51 45 47);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.main {
+    background: url(joanna-kosinska-BteMcldTQVo-unsplash.jpg);
+    background-size: cover;
+    height: 88vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: rgb(20, 38, 45);
+    border-radius: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+.jj {
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.btn1:hover {
+    background-color: rgb(61, 21, 21);
+}
+
+.card:hover {
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transform: 0.8s;
+}
+
+.apple {
+    background: url(eating\ girl\ 2.jpg);
+    background-size: cover;
+    height: 88vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+
+.apple h1,
+h6 {
+    color: rgb(255, 255, 255);
+}
+
+.row h1,
+h6 {
+    color: black;
+}
+
+.news {
+    background-color: black;
+    color: wheat;
+}
+
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 700;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid wheat;
+    background-color: black;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+input {
+    outline: none;
+    color: rgb(0, 136, 255);
+}
